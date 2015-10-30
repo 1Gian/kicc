@@ -12,64 +12,74 @@
 
     <GridView
 
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:columnWidth="50dp"
         android:gravity="center"
+        android:text="Speakers"
+        android:background="#ff0000"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
-        android:layout_marginLeft="64dp"
-        android:layout_marginStart="64dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
         android:id="@+id/gridView"
-        android:layout_below="@+id/gridView3"
-        android:layout_alignRight="@+id/gridView3"
-        android:layout_alignEnd="@+id/gridView3">
-
-    </GridView>
-
-    <GridView
-
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:columnWidth="50dp"
-        android:gravity="center"
-        android:numColumns="auto_fit"
-        android:stretchMode="columnWidth"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/gridView2"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/gridView3">
+        android:layout_alignParentStart="true">
 
     </GridView>
 
     <GridView
 
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:columnWidth="50dp"
         android:gravity="center"
+        android:text="Agender"
+        android:background="#ff0000"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="64dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="126dp"
-        android:id="@+id/gridView2">
+        android:id="@+id/gridView3"
+        android:layout_alignTop="@+id/gridView4"
+        android:layout_alignLeft="@+id/gridView2"
+        android:layout_alignStart="@+id/gridView2">
 
     </GridView>
 
     <GridView
 
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:columnWidth="50dp"
         android:gravity="center"
+        android:text="Feeds"
+        android:background="#ff0000"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
+        android:layout_marginTop="27dp"
+        android:id="@+id/gridView2"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="27dp"
-        android:layout_marginStart="27dp"
-        android:id="@+id/gridView4">
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp">
+
+    </GridView>
+
+    <GridView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:columnWidth="50dp"
+        android:gravity="center"
+        android:text="Information"
+        android:background="#ff0000"gi
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:id="@+id/gridView4"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/gridView"
+        android:layout_alignStart="@+id/gridView">
 
     </GridView>
 
