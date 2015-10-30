@@ -11,26 +11,26 @@
 
 
     <GridView
-        android:id="@+id/gridview1"
+
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:columnWidth="50dp"
         android:gravity="center"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginLeft="64dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="126dp">
+        android:id="@+id/gridView"
+        android:layout_below="@+id/gridView3"
+        android:layout_alignRight="@+id/gridView3"
+        android:layout_alignEnd="@+id/gridView3">
 
     </GridView>
 
     <GridView
-        android:id="@+id/gridview1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:columnWidth="50dp"
         android:gravity="center"
         android:numColumns="auto_fit"
@@ -38,43 +38,38 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="64dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="126dp">
+        android:id="@+id/gridView3">
 
     </GridView>
 
     <GridView
-        android:id="@+id/gridview1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:columnWidth="50dp"
         android:gravity="center"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginLeft="64dp"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="126dp">
+        android:layout_marginTop="126dp"
+        android:id="@+id/gridView2">
 
     </GridView>
 
     <GridView
-        android:id="@+id/gridview1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:columnWidth="50dp"
         android:gravity="center"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="64dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="126dp">
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:id="@+id/gridView4">
 
     </GridView>
 
