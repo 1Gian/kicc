@@ -11,10 +11,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="3"
         android:text="Login With"
         android:id="@+id/button"
         android:textColor="#fff"
-        android:background="#1dcaff"
+        android:background="#ff0000"
+        android:textSize="15sp"
         android:layout_above="@+id/button3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -23,6 +25,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="3"
         android:text="Twittwr"
         android:id="@+id/button2"
         android:background="#1dcaff"
@@ -37,6 +40,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="3"
         android:text="Facebook"
         android:background="#3b5998"
         android:id="@+id/button3"
